@@ -62,29 +62,27 @@ int ifstrpalindrom(char* str);
 
 void main1()
 {
-	char b[] = "he llo im afik";
-	char* a = arrangeit(b);
-	printf("%s", b);
+	
 }
 
-//מעבדת כיתה 1 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 1 ֳ¹ֳ ֳ¬ֳ₪ 1
 void name()
 {
 	printf("hello afik");
 	
-}//מעבדת כיתה 1 שאלה 2
+}//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 1 ֳ¹ֳ ֳ¬ֳ₪ 2
 void pi()
 {
 	double pii = 3.141592;
 	printf("%.2f", pii);
 
 }
-//מעבדת כיתה 1 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 1 ֳ¹ֳ ֳ¬ֳ₪ 3
 void trangle()
 {
 	printf("    *\n***  \n*****");
 }
-//מעבדת כיתה 1 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 1 ֳ¹ֳ ֳ¬ֳ₪ 4
 void ab()
 {
 	int a, b;
@@ -92,7 +90,7 @@ void ab()
 	scanf_s("%d %d", &a, &b);
 	printf("a * b = %d\na \\ b = %d\na %% b = %d", a * b,a/b,a%b);
 }
-//מעבדת כיתה 1 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 1 ֳ¹ֳ ֳ¬ֳ₪ 5
 void switchnum()
 {
 	int a = 5, b = 6;
@@ -100,7 +98,7 @@ void switchnum()
 	printf("a: %d, b: %d", b, a);
 }
 
-//מעבדת כיתה 2 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 1
 void sum3digits()
 {
 	printf("write a 3 digit number\n");
@@ -115,7 +113,7 @@ void sum3digits()
 	printf("%d", sum);
 
 }
-//מעבדת כיתה 2 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 2
 void upsidedownnum()
 {
 	printf("write a 3 digit number\n");
@@ -132,7 +130,7 @@ void upsidedownnum()
 
 
 }
-// מעבדת כיתה 2 שאלה 3
+// ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 3
 void dividetime()
 {
 	printf("write number of days\n");
@@ -146,7 +144,7 @@ void dividetime()
 	printf("years: %d  , months: %d  days:  %d", yearsfinal, monthsfinal, daysfinal);
 
 }
-//מעבדת כיתה 2 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 4
 void calculateGrade()
 {
 	printf("write 3 grades and a test\n");
@@ -156,7 +154,7 @@ void calculateGrade()
 	int finalGrade = testgrade * 0.8 + avgGradesm * 0.2;
 	printf(" your grade is: %d", finalGrade);
 }
-//מעבדת כיתה 2 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 5
 void power()
 {
 	printf("write a double num");
@@ -169,7 +167,7 @@ void power()
 	printf("x^2: %.0f ;\nx^4: %.0f\nx^6: %.0f;\nx^8: %.0f", x2, x4, x6, x8);
 		
 }
-//מעבדת כיתה 2 שאלה 6
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 2 ֳ¹ֳ ֳ¬ֳ₪ 6
 void angryfly()
 {
 	float distanceAB,car1speed,car2speed,flyspeed;
@@ -185,7 +183,7 @@ void angryfly()
 	
 	
 }
-//מעבדת כיתה 3 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 3 ֳ¹ֳ ֳ¬ֳ₪ 1
 void max1()
 {
 	int a, b, c;
@@ -210,7 +208,7 @@ void max1()
 	
 
 }
-//מעבדת כיתה 3 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 3 ֳ¹ֳ ֳ¬ֳ₪ 2
 void validnums()
 {
 	int num1, num2;
@@ -225,7 +223,7 @@ void validnums()
 		printf("invalid numbers");
 	}
 }
-//מעבדת כיתה 3 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 3 ֳ¹ֳ ֳ¬ֳ₪ 3
 void threenumbers()
 {
 	int num;
@@ -275,7 +273,7 @@ void threenumbers()
 		}
 	}
 }
-//מעבדת כיתה 3 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 3 ֳ¹ֳ ֳ¬ֳ₪ 4
 void secs()
 {
 	int seconds;
@@ -288,7 +286,7 @@ void secs()
 	printf("%d : %d : %d", hours, minutes,Secs);
 }
 
-//מעבדת כיתה 3 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 3 ֳ¹ֳ ֳ¬ֳ₪ 5
 void nextday()
 {
 	printf("wrtie day/month/year\n");
@@ -299,7 +297,7 @@ void nextday()
 		 meoberet = true;
 }
 
-//מעבדת כיתה 4 שאלה 1 סעיף א
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 4 ֳ¹ֳ ֳ¬ֳ₪ 1 ֳ±ֳ²ֳ©ֳ³ ֳ 
 void or3or5()
 {
 	int sum = 0;
@@ -310,7 +308,7 @@ void or3or5()
 	printf("%d\n", sum);
 }
 
-//מעבדת כיתה 4 שאלה 1 סעיף ב
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 4 ֳ¹ֳ ֳ¬ֳ₪ 1 ֳ±ֳ²ֳ©ֳ³ ֳ¡
 void or3or5B()
 {
 	int sum5 = 0,sum3=0;
@@ -332,7 +330,7 @@ void or3or5B()
 	printf("%d", sum3 + sum5);
 }
 
-//מעבדת כיתה 4 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 4 ֳ¹ֳ ֳ¬ֳ₪ 2
 void sidraDO()
 {
 	int n;
@@ -364,7 +362,7 @@ void sidraDO()
 	printf("very ascending");
 }
 
-//מעבדת כיתה 4 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 4 ֳ¹ֳ ֳ¬ֳ₪ 3
 void sumzogiEzogi()
 {
 	int n;int sumzogi = 0, sumezogi = 0;
@@ -432,7 +430,7 @@ void binaryconverter()
 	
 }
 
-//מעבדת כיתה 4 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 4 ֳ¹ֳ ֳ¬ֳ₪ 5
 void tmorot()
 {
 	for (size_t i = 0; i <= 7 ; i++)
@@ -447,7 +445,7 @@ void tmorot()
 	}
 }
 
-//מעבדת כיתה 5 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 5 ֳ¹ֳ ֳ¬ֳ₪ 1
 int calculator(int num1,int num2,char op)
 {
 	switch (op)
@@ -495,7 +493,7 @@ int calculator(int num1,int num2,char op)
 	
 }
 
-//מעבדת כיתה 5 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 5 ֳ¹ֳ ֳ¬ֳ₪ 2
 int reversednumber(int n)
 {
 	int hezka = digitscount(n);
@@ -511,7 +509,7 @@ int reversednumber(int n)
 	return newnumber;
 }
 
-//מעבדת כיתה 5 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 5 ֳ¹ֳ ֳ¬ֳ₪ 3
 int sumnumbertimes(int n)
 {
 	int sum = 0;
@@ -525,7 +523,7 @@ int sumnumbertimes(int n)
 	return sum;
 }
 
-//מעבדת כיתה 5 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 5 ֳ¹ֳ ֳ¬ֳ₪ 4
 int rishoniolo(int n)
 {
 	
@@ -542,7 +540,7 @@ int rishoniolo(int n)
 }
 
 
-//מעבדת כיתה 5 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 5 ֳ¹ֳ ֳ¬ֳ₪ 5
 int greatestdivider3nums(int n1, int n2, int n3)
 {
 	int divider=0;
@@ -557,7 +555,7 @@ int greatestdivider3nums(int n1, int n2, int n3)
 	return divider;
 }
 
-//מעבדת כיתה 6 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 1
 int ifhaszogi(int num)
 {
 	if (num == 0)
@@ -567,7 +565,7 @@ int ifhaszogi(int num)
 	ifhaszogi(num / 10);
 }
 
-//מעבדת כיתה מס 6 שאלה 2 א
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ ֳ®ֳ± 6 ֳ¹ֳ ֳ¬ֳ₪ 2 ֳ 
 int fibonachi(int n)
 {
 	if (n == 0 || n== 1)
@@ -575,7 +573,7 @@ int fibonachi(int n)
 
 	return fibonachi(n-1) + fibonachi(n - 2);
 }
-//מעבדת כיתה 6 שאלה 2 ב
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 2 ֳ¡
 int fibonachinotrecursiv(int n)
 {
 	int a=0, b=1,temp;
@@ -593,7 +591,7 @@ int fibonachinotrecursiv(int n)
 	return b;
 }
 
-//מעבדת כיתה 6 שאלה 3 א
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 3 ֳ 
 int digitnumbers(int n)
 {
 	
@@ -604,7 +602,7 @@ int digitnumbers(int n)
 	return  1 + digitnumbers(n / 10);
 }
 
-//מעבדת כיתה 6 שאלה 3 ב
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 3 ֳ¡
 int digitssum(int n)
 {
 	if (n == 0)
@@ -612,7 +610,7 @@ int digitssum(int n)
 	return (n % 10) + digitssum(n / 10);
 }
 
-//מעבדת כיתה 6 שאלה 3 ג
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 3 ֳ¢
 int memuyan(int n)
 {
 	
@@ -629,7 +627,7 @@ int memuyan(int n)
 	return memuyan(n / 10);
 }
 
-//מעבדת כיתה 6 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 4
 int smallerthennum(int num)
 {
 	int n;
@@ -642,7 +640,7 @@ int smallerthennum(int num)
     return smallerthennum(num);
 }
 
-//מעבדת כיתה 6 שאלה 5 א
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 5 ֳ 
 int numtoone(int num)
 {
 	if (num == 1)
@@ -651,7 +649,7 @@ int numtoone(int num)
 	return numtoone(num - 1);
 }
 
-//מעבדת כיתה 6 שאלה 5 ב
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 5 ֳ¡
 int onetonum(int num)
 {
    
@@ -667,7 +665,7 @@ int onetonum(int num)
 	
 }
 
-//מעבדת כיתה 6 שאלה 5 ג
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 6 ֳ¹ֳ ֳ¬ֳ₪ 5 ֳ¢
 int numtoonetonum(int num)
 {
 	if (num == 1)
@@ -680,7 +678,7 @@ int numtoonetonum(int num)
 	}
 }
 
-//מעבדת כיתה 7 שאלה 1 א
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 7 ֳ¹ֳ ֳ¬ֳ₪ 1 ֳ 
 void inputArray(int* arr, int n)
 {
 	for (size_t i = 0; i < n; i++)
@@ -690,7 +688,7 @@ void inputArray(int* arr, int n)
 	}
 }
 
-//מעבדת כיתה 7 שאלה 1 ב
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 7 ֳ¹ֳ ֳ¬ֳ₪ 1 ֳ¡
 void inputArrayprint(int* arr, int n)
 {
 	int i;
@@ -702,7 +700,7 @@ void inputArrayprint(int* arr, int n)
 
 
 
-//מעבדת כיתה 7 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 7 ֳ¹ֳ ֳ¬ֳ₪ 2
 void arrCalc(int* arr, int n, int* max, int* min, int* sum, double* avg, int* isEven)
 {
 	int i;
@@ -721,7 +719,7 @@ void arrCalc(int* arr, int n, int* max, int* min, int* sum, double* avg, int* is
 	*avg = (double)*sum / n;
 }
 
-//מעבדת כיתה 7 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 7 ֳ¹ֳ ֳ¬ֳ₪ 5
 
 void swap(int* num1Ptr, int* num2Ptr)
 {
@@ -749,7 +747,7 @@ void flipArrayRec(int* arr, int n)
 	}
 }
 
-//מעבדת כיתה 8 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 8 ֳ¹ֳ ֳ¬ֳ₪ 1
 double* inputarray(int n)
 {
 	double* arr = (double*)calloc(n, sizeof(double));
@@ -762,7 +760,7 @@ double* inputarray(int n)
 }
 
 
-//מעבדת כיתה 8 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 8 ֳ¹ֳ ֳ¬ֳ₪ 2
 int* fibonachiarray(int size)
 {
 	int* arr = (int*)calloc(size+1,sizeof(int));
@@ -777,7 +775,7 @@ int* fibonachiarray(int size)
 }
 
 
-//מעבדת כיתה 8 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 8 ֳ¹ֳ ֳ¬ֳ₪ 3
 int themosttimes(int* arrnums,int size)
 {
 	int counterarr[] = {0,0,0,0,0,0,0,0,0,0};
@@ -802,7 +800,7 @@ int themosttimes(int* arrnums,int size)
 	return index;
 }
 
-//מעבדת כיתה 8 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 8 ֳ¹ֳ ֳ¬ֳ₪ 4
 int ktimesarr(int* arr, int n, int k)
 {
 	int* counterarr = (int*)calloc(k, sizeof(int));
@@ -819,7 +817,7 @@ int ktimesarr(int* arr, int n, int k)
 	return 1;
 }
 
-//מעבדת כיתה 8 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 8 ֳ¹ֳ ֳ¬ֳ₪ 5
 int subbigfromtiny(int* arr, int size, int a, int b)
 {
 	int* counterarr = (int*)calloc(b+1, sizeof(int));
@@ -858,7 +856,7 @@ int subbigfromtiny(int* arr, int size, int a, int b)
 	return indexbig - indexsmall;
 }
 
-//מעבדת כיתה 9 שאלה 1
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 9 ֳ¹ֳ ֳ¬ֳ₪ 1
 char* doubleit(char str[])
 {
 	char* result = (char*)malloc(2 * strlen(str)+1, sizeof(char));
@@ -879,7 +877,7 @@ char* doubleit(char str[])
 	return result;
 }
 
-//מעבדת כיתה 9 שאלה 2
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 9 ֳ¹ֳ ֳ¬ֳ₪ 2
 char howmuchtimes(char* str, int* shows)
 {
 	int* letter_counter = (int*)calloc(27, sizeof(int));
@@ -906,14 +904,14 @@ char howmuchtimes(char* str, int* shows)
 	*shows = biggest_counter;
 	return biggest_letter + 'a';
 
-	//במיין
+	//ֳ¡ֳ®ֳ©ֳ©ֳ¯
 	/*char a[] = "aaa bb cc";
 	int show;
 	char c = howmuchtimes(a, &show);
 	printf("%c,%d", c, show);*/
 }
 
-//מעבדת כיתה 9 שאלה 3
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 9 ֳ¹ֳ ֳ¬ֳ₪ 3
 int takinolo1(char* str)
 {
 	if (strlen(str) <= 1)
@@ -936,7 +934,7 @@ int takinolo1(char* str)
 	
 }
 
-//מעבדת כיתה 9 שאלה 4
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 9 ֳ¹ֳ ֳ¬ֳ₪ 4
 char* arrangeit(char* str)
 {
 	int i = 0, j=0;
@@ -957,14 +955,14 @@ char* arrangeit(char* str)
 	}
 	return str;
 
-	//במיין
+	//ֳ¡ֳ®ֳ©ֳ©ֳ¯
 	//char b[] = "he llo im afik";
 	//char* a = arrangeit(b);
 	//printf("%s", b);
 }
 
 
-//מעבדת כיתה 9 שאלה 5
+//ֳ®ֳ²ֳ¡ֳ£ֳ÷ ֳ«ֳ©ֳ÷ֳ₪ 9 ֳ¹ֳ ֳ¬ֳ₪ 5
 int ifstrpalindrom(char* str)
 {
 	int i = 0,j=strlen(str)-1;
@@ -976,7 +974,7 @@ int ifstrpalindrom(char* str)
 	}
 	return 1;
 
-	//במיין
+	//ֳ¡ֳ®ֳ©ֳ©ֳ¯
 	/*char a[] = "abba";
 	printf("%d", ifstrpalindrom(a));*/
 }
