@@ -124,15 +124,10 @@ void rearrangeposneg(int* arr, int n);
 
 void main2()
 {
-	int a[] = { 1,6,-3,8,-2 };
-	rearrangeposneg(&a,5);
-	for (size_t i = 0; i < 5; i++)
-	{
-		printf("[%d]", a[i]);
-	}
+	
 	
 }
-//îòáãú áéú îñ 1, ùàìä 1
+//Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº Ã®Ã± 1, Ã¹Ã Ã¬Ã¤ 1
  void returnAge()
  {
     int currnetyear;
@@ -144,7 +139,7 @@ void main2()
 	
 	printf("year of birth is : %d", currnetyear - age);
  }
- //îòáãú áéú îñ 1, ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº Ã®Ã± 1, Ã¹Ã Ã¬Ã¤ 2
  static void playX()
  {
      printf("*           *\n");
@@ -156,7 +151,7 @@ void main2()
 	 printf("*           *\n");
 
  }
- //îòáãú áéú îñ 1, ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº Ã®Ã± 1, Ã¹Ã Ã¬Ã¤ 3
  void bob()
  {
 	 printf("write id\n");
@@ -185,7 +180,7 @@ void main2()
 
 
  }
- //îòáãú áéú 1 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 1 Ã¹Ã Ã¬Ã¤ 4
  void avgMotzarim()
  {
 	 int motzarA, motzarB;
@@ -197,7 +192,7 @@ void main2()
 	 double avgprice = (motzarA * PriceA + motzarB * PriceB) / motzarA + motzarB;
 	 printf("the average is: %.2f", avgprice);
  }
- //îòáãú áéú 1 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 1 Ã¹Ã Ã¬Ã¤ 5
  void timeFromAtoB()
  {
 	 int distance, speed;
@@ -209,7 +204,7 @@ void main2()
      
  }
 
- //îòáãú áéú 2 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 1
  void findsquare()
  {
 	 printf("write length of a line in a square\n");
@@ -220,7 +215,7 @@ void main2()
 	 printf("the Diagonal is : %d unit long", align);
  }
 
- //îòáãú áéú 2 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 2
  void circle()
  {
 	 double r;
@@ -234,7 +229,7 @@ void main2()
 
  }
  
- //îòáãú áéú 2 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 3
  void sidra()
  {
 	 printf("write a1, d and n\n");
@@ -247,7 +242,7 @@ void main2()
 
  }
 
- //îòáãú áéú 2 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 4
  void sumsidra()
  {
 	 printf("write a1, d and n\n");
@@ -259,7 +254,7 @@ void main2()
 	 printf("the sum is: %.3f", sum);
  }
 
- //îòáãú áéú 2 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 5
  void sidraHandasit()
  {
 	 printf("write a1, q and n\n");
@@ -271,7 +266,7 @@ void main2()
 
  }
 
- //îòáãú áéú 2 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 6
  void AdiHandsit()
  {
 	 printf("write a1, q and n\n");
@@ -282,7 +277,7 @@ void main2()
 	 printf("%.2f", an);
  }
 
- //îòáãú áéú 2 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 7
  void sumSquareDigits()
  {
 	 printf("write 3 digits number\n");
@@ -298,7 +293,7 @@ void main2()
 	 printf("sum is: %d", sum);
  }
 
- //îòáãú áéú 2 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 8
  void shalemD()
  {
 	 double d;
@@ -309,7 +304,7 @@ void main2()
 	 printf("%.2f", rest);
  }
 
- //îòáãú áéú 2 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 2 Ã¹Ã Ã¬Ã¤ 9
  void bobNewSalary()
  {
 	 double previousSalary, pitzoi;
@@ -319,7 +314,7 @@ void main2()
 	 printf("%.2f", newSar);
  }
 
- //îòáãú áéú 3 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 1
  void absulotenum()
  {
 	 double n;
@@ -328,7 +323,7 @@ void main2()
 	 printf("%d", (int)n);
  }
 
- //îòáãú áéú 3 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 2
  void eliminateAlis()
  {
 	 double price;
@@ -351,7 +346,7 @@ void main2()
 	 printf("the final price is: %.2f", finalprice);
  }
 
- //îòáãú áéú 3 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 3
  void takinolo()
  {
 	 int n;
@@ -380,7 +375,7 @@ void main2()
 	 printf("not valid");
  }
 
- //îòáãú áéú 3 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 4
  void inavildorvalid3numbers()
  {
 	 int n1, n2, n3;
@@ -400,7 +395,7 @@ void main2()
 	 printf("invalid numbers");
  }
 
- //îòáãú áéú 3 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 5
  void age()
  {
 	 time_t currentTime;
@@ -433,7 +428,7 @@ void main2()
 	 
  }
 
- //îòáãú áéú 3 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 6
  void xy()
  {
 	 int x, y;
@@ -450,7 +445,7 @@ void main2()
 
  }
 
- //îòáãú áéú 3 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 7
  void distance2xy()
  {
 	 int x1, y1, x2, y2;
@@ -460,7 +455,7 @@ void main2()
 	 printf("the distance is: %.2f", distance);
  }
 
- //îòáãú áéú 3 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 8
  void functionsquart()
  {
 	 int a, b, c;
@@ -471,7 +466,7 @@ void main2()
 	 printf("x1: %.2f \nx2: %.2f", x1, x2);
  }
  
- //îòáãú áéú 3 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 9
  void triangleArea()
  {
 	 int hypotenuse, height;
@@ -486,7 +481,7 @@ void main2()
 	 printf("the area is: %d", area);
  }
 
- //îòáãú áéú 3 ùàìä 10
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 3 Ã¹Ã Ã¬Ã¤ 10
  void mazalot()
  {
 	 int birthday, birthmonth, birthyear;
@@ -520,7 +515,7 @@ void main2()
 	 
  }
 
- //îòáãú áéú 4 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 1
  void fizzbuzz()
  {
 	 int n;
@@ -539,7 +534,7 @@ void main2()
 	 }
  }
 
- //îòáãú áéú 4 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 2
  void miktaim()
  {
 	 int n;
@@ -556,7 +551,7 @@ void main2()
 
  }
 
- //îòáãú áéú 4 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 3
  void coins()
  {
 	
@@ -597,7 +592,7 @@ void main2()
 
  }
 
- //îòáãú áéú 4 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 4
  void neizogi()
  {
 	 int n;
@@ -617,7 +612,7 @@ void main2()
 	 printf("the sum is: %d", sum);
  }
 
- //îòáãú áéú 4 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 5
  void sigma()
  {
 	 printf("write a number\n");
@@ -632,7 +627,7 @@ void main2()
 	 printf("%.2f", (natzeret / sigmasum));
  }
 
- //îòáãú áéú 4 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 6
  void doUntilMinus1()
  {
 	 int max = 0, min = 0, counter = 0 , number;
@@ -660,7 +655,7 @@ void main2()
 	printf("%d numbers; min=%d; max=%d", counter, min, max);
  }
 
- //îòáãú áéú 4 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 4 Ã¹Ã Ã¬Ã¤ 7
  int digitscount1(int n)
  {
 	 int digit;
@@ -693,7 +688,7 @@ void main2()
 
 
 
- //îòáãú áéú 5 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 1
  int squaree(int n)
  {
 	 return n * n;
@@ -707,7 +702,7 @@ void main2()
 	 return pow(n, h);
  }
 
- //îòáãú áéú 5 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 2
  int isEven(int n)
  {
 	 return n % 2 == 0;
@@ -717,7 +712,7 @@ void main2()
 	 return !isEven(n);
  }
 
- //îòáãú áéú 5 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 3
  long digitsigma(int n)
  {
 	 long sigma = 0;
@@ -729,7 +724,7 @@ void main2()
 	
  }
 
- //îòáãú áéú 5 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 4
  int bigToLow(char ch)
  {
 	 int charnum = (int)ch;
@@ -755,7 +750,7 @@ void main2()
 
  }
  
- //îòáãú áéú 5 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 5
  int charToInt(char dig100, char dig10, char dig1)
  {
 	 if (((int)dig100 >= 48 && (int)dig100  <= 57) && ((int)dig10 >= 48 && (int)dig10 <= 57) && ((int)dig1 >= 48 && (int)dig1 <= 57))
@@ -766,7 +761,7 @@ void main2()
 	 return 0;
  }
 
- //îòáãú áéú 5 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 6
  int sumMeshutafim(int n1, int n2)
  {
 	 int sum = 0;
@@ -780,7 +775,7 @@ void main2()
 	 return sum;
  }
 	
- //îòáãú áéú 5 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 7
  int zeroOrOneMehalkim(int n)
  {
 	 /*int sqrt1 = sqrt(n);
@@ -790,7 +785,7 @@ void main2()
 		 return 0;*/
  }
 
- //îòáãú áéú 5 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 8
  int mehalekmini(int num)
  {
 	 if (num % 2 == 0)
@@ -810,7 +805,7 @@ void main2()
 	
  }
 
- //îòáãú áéú 5 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 9
  int mehalekgadol(int num)
  {
 	 if (num % 2 == 0)
@@ -823,7 +818,7 @@ void main2()
 	 return 1;
  }
 
- //îòáãú áéú 5 ùàìä 10
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 10
  int gcd(int a, int b)
  {
 	 for (size_t i = fmin(a,b); i >= 1; i--)
@@ -837,7 +832,7 @@ void main2()
 	 printf("%d\n---\n%d", mone / gcd(mone, mehane), mehane / gcd(mone, mehane));
  }
 
- //ìà æåëø îàéôä æä
+ //Ã¬Ã  Ã¦Ã¥Ã«Ã¸ Ã®Ã Ã©Ã´Ã¤ Ã¦Ã¤
  int mehalekmax(int num)
  {
 	 if (num == 2)
@@ -852,13 +847,13 @@ void main2()
 	 return 1;
  }
 
- //îòáãú áéú 5 ùàìä 11
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 5 Ã¹Ã Ã¬Ã¤ 11
  int Lcm(int num1, int num2)
  {
 	 return (num1 * num2) / gcd(num1, num2);
  }
 
- //îòáãú áéú 6 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 1
  int calxn(int x,int n)
  {
 	 if (n==0)
@@ -869,7 +864,7 @@ void main2()
 		 return  x*calxn(x,n/2)* calxn(x,n / 2);
  }
 
- //îòáãú áéú 6 ùàìä 2 à
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 2 Ã 
  int lucas(int n)
  {
 	 if (n == 0)
@@ -878,7 +873,7 @@ void main2()
 		 return 1;
 	 return lucas(n - 1) + lucas(n - 2);
  }
- //îòáãú áéú 6 ùàìä 2 á
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 2 Ã¡
  int lucasnotrecursive(int n)
  {
 	 
@@ -898,7 +893,7 @@ void main2()
 	 return finalx;
  }
 
- //îòáãú áéú 6 ùàìä 3 à
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 3 Ã 
  int pellseries(int n)
  {
 	 if (n == 0)
@@ -908,7 +903,7 @@ void main2()
 	 return 2 * pellseries(n - 1) + pellseries(n - 2);
  }
 
- //îòáãú áéú 6 ùàìä 3 á
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 3 Ã¡
  int pellseriesnonrecrusive(int n)
  {
 	 if (n == 0)
@@ -926,7 +921,7 @@ void main2()
 	 return result;
  }
 
- //îòáãú áéú 6 ùàìä 4 à
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 4 Ã 
  int seriescrazy(int n)
  {
 	 if (n == 1 || n == 2 || n == 3)
@@ -937,7 +932,7 @@ void main2()
 		 return seriescrazy(n - 1) - seriescrazy(n - 3);
  }
 
- //îòáãú áéú 6 ùàìä 4 á
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 4 Ã¡
  int seqNonRec(int n)
  {
 	 int prevPrev, prev, curr, temp, i;
@@ -956,7 +951,7 @@ void main2()
 	 return curr;
  }
  
- //îòáãú áéú 6 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 5
  int biggestinsidra(int num)
  {
 	 int cur, prev;
@@ -970,7 +965,7 @@ void main2()
 	 return cur;
  }
 
- //îòáãú áéú 6 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 6
  int smallestinsidra(int num)
  {
 	 int cur, prev;
@@ -984,7 +979,7 @@ void main2()
 	 return cur;
  }
  
- //îòáãú áéú 6 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 7
  int bintodec(int num)
  {
 	 if (num == 0)
@@ -992,7 +987,7 @@ void main2()
 	 return 10 * bintodec(num / 2) + (num % 2);
  }
 
- //îòáãú áéú 6 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 8
  int printchars(int num, char c1, char c2)
  {
 	/* if (num>=1)
@@ -1004,7 +999,7 @@ void main2()
  }
 
 
- //îòáãú áéú 6 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 9
  int newminusnum(int num)
  {
 	 if (num < 10)
@@ -1019,7 +1014,7 @@ void main2()
 	 return 10 * newmaximumnum(num / 10) + (num + 1) % 10;
  }
 
- //îòáãú áéú 6 ùàìä 10
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 10
 
  int  sumzogiolo(int num)
  {
@@ -1029,7 +1024,7 @@ void main2()
 	 return a % 2 == 0 ? 1 : 0;
  }
 
- //îòáãú áéú 6 ùàìä 11
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 11
  int displayzogiolo(int num)
  {
 	 if (num == 0)
@@ -1043,7 +1038,7 @@ void main2()
 	 return displayzogiolo(num / 100);
  }
 
- //îòáãú áéú 6 ùàìä 12
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 6 Ã¹Ã Ã¬Ã¤ 12
  int retzef(int num)
  {
 	 if (num == 0)
@@ -1081,7 +1076,7 @@ void main2()
  }
 
 
- //îòáãú áéú 7 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 1
  void threepointers(int* num1ptr, int* num2ptr, int* num3ptr)
  {
 	
@@ -1106,7 +1101,7 @@ void main2()
 	 printf("num3ptr=%d\nnum2ptr=%d\nnum1ptr=%d", *num3ptr, *num2ptr, *num1ptr);
  }
 
- //îòáãú áéú 7 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 2
  double avgforn(int num, double digit, int* ptr)
  {
 	 int counter = 0;
@@ -1127,7 +1122,7 @@ void main2()
  }
 
 
- //îòáãú áéú 7 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 3
  int gzira(int c, int x, int n, int* newC, int* newN)
  {
 	 *newC = c * n;
@@ -1135,7 +1130,7 @@ void main2()
 	 return *newC * pow(x, *newN);
 
 
-	 //ùîúé àú æä áîééï
+	 //Ã¹Ã®ÃºÃ© Ã Ãº Ã¦Ã¤ Ã¡Ã®Ã©Ã©Ã¯
 	/* int c = 4, n = 3;
 	 int* c1 = &c;
 	 int* n1 = &n;
@@ -1144,7 +1139,7 @@ void main2()
  }
  
 
- //îòáãú áéú 7  ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7  Ã¹Ã Ã¬Ã¤ 4
  int arrsumbiggstpair(int a[], int n)
  {
 	 int b[2] = { 0,0 };
@@ -1159,13 +1154,13 @@ void main2()
 	 return b[0] + b[1];
 	 
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 1,2,3,4,5,6,7,8 };
 	 printf("%d", arrsumbiggstpair(a, 9));*/
  }
 
 
- //îòáãú áéú 7 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 5
  int twolessthankey(int* arr, int size, int key,int* a,int* b)
  {
 	 int min1 = arr[0] < arr[1] ? arr[0]:arr[1];
@@ -1190,7 +1185,7 @@ void main2()
 	 *a = *b = -1;
 	 return 0;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	 /*int arr[5] = { 1,6,2,4,3 };
 	int a1, b1;
 	printf("%d\n", twolessthankey(&arr, 5, 4, &a1, &b1));
@@ -1198,7 +1193,7 @@ void main2()
  }
  
 
- //îòáãú áéú 7 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 6
  void maxmax(int* arr, int size, int* max_even, int* even, int* max_odd, int* odd)
  {
 	 int i;
@@ -1222,7 +1217,7 @@ void main2()
 	 *max_even = maxeven;
 	 *max_odd = maxodd;
 	 
-	 //îä ùùîúé áîééï
+	 //Ã®Ã¤ Ã¹Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	 /*int a[] = { 2,6,8,4,4,6,2,2 };
 	 int maxeven = 0, maxodd = 0, even, odd;
 	 maxmax(&a, 8, &maxeven, &even, &maxodd, &odd);
@@ -1230,7 +1225,7 @@ void main2()
  }
 
 
- //îòáãú áéú 7 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 7
  int palindrom(int arr[], int size)
  {
 	 int ileft =0, iright = size-1;
@@ -1250,12 +1245,12 @@ void main2()
 		 return 1;
 	 return arr[0] != arr[size - 1] ? 0 : palindorm_recursive(arr + 1, size - 2);
 
-	 //îä ùùîúé áîééï
+	 //Ã®Ã¤ Ã¹Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 1,2,2,1 };
 	 printf("%d", palindorm_recursive(a, 4));*/
  }
 
- //îòáãú áéú 7 ùàìä 8 à
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 8 Ã 
  int printarr_rec(int* arr, int size)
  {
 	 if (size == 1)
@@ -1268,7 +1263,7 @@ void main2()
 	 return printarr_rec(arr + 1, size - 1);
  }
 
- //îòáãú áéú 7 ùàìä 8 á
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 8 Ã¡
  int printarreverse_rec(int* arr, int size)
  {
 	 if (size == 1)
@@ -1280,7 +1275,7 @@ void main2()
 	 return printarreverse_rec(arr, size - 1);
  }
 
- //îòáãú áéú 7 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 9
  double arrAvg_rec(int* arr, int size)
  {
 	 if (size == 1)
@@ -1291,7 +1286,7 @@ void main2()
     return sum/size;
  }
  
- //îòáãú áéú 7 ùàìä 10
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 10
  double riseanddown(double* arr, int size)
  {
 	 if (size == 1)
@@ -1302,12 +1297,12 @@ void main2()
 	 }
 	 return 0;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* double a[] = { 4.5,5.3,6.2 };
 	 printf("%d", (int)riseanddown(a, 3));*/
  }
 
- //îòáãú áéú 7 ùàìä 11 à
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 11 Ã 
  int ifrisingsum(int* arr, int size)
  {
 	 int i,sum=0;
@@ -1319,12 +1314,12 @@ void main2()
 	 }
 	 return 1;
 
-	 //ùîúé àú æä áîééï
+	 //Ã¹Ã®ÃºÃ© Ã Ãº Ã¦Ã¤ Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 1,2,5,9,20,40 };
 	 printf("%d", ifrisingsum(a, 6));*/
  }
 
- //îòáãú áéú 7 ùàìä 11 á
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 7 Ã¹Ã Ã¬Ã¤ 11 Ã¡
  int ifrisingsum_rec(int* arr, int size)
  {
 	 int result;
@@ -1338,7 +1333,7 @@ void main2()
 	 return 0;
  }
  
-//îòáãú áéú 8 ùàìä 1
+//Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 1
  int* lucas1(int n)
  {
 	 int* arr = (int*)calloc(n + 1, sizeof(int));
@@ -1351,7 +1346,7 @@ void main2()
 	 }
 	 return arr;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int n = 9;
 	 int* a = lucas1(n);
 	 for (size_t i = 0; i <= n; i++)
@@ -1360,7 +1355,7 @@ void main2()
 	 }*/
  }
 
- //îòáãú áéú 8 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 2
  int* evenarray(int* arr, int size,int isEven,int* newSize)
  {
 	 int* arr_results=(int*)calloc(size,sizeof(int));
@@ -1383,7 +1378,7 @@ void main2()
 	 return arr_results;
  }
 
- //îòáãú áéú 8 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 3
  int* vectors(int* a, int* b)
  {
 	 int* c = (int*)calloc(3, sizeof(int));
@@ -1393,7 +1388,7 @@ void main2()
 	 return c;
  }
 
- //îòáãú áéú 8 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 4
  int* kefelarr(int* arr, int size)
  { 
 	 int* ltor = (int*)malloc(size * sizeof(int));
@@ -1422,7 +1417,7 @@ void main2()
 	 return arr;
  }
 
- //îòáãú áéú 8 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 5
  int* missingnums(int* arr, int size, int* newsize)
  {
 	 int* newarr = (int*)calloc(size+1, sizeof(int));
@@ -1454,7 +1449,7 @@ void main2()
 	 free(newarr);
 	 return newest;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	 /*int a[] = { 0,1,1,0,3,5 };
 	 int newsize;
 	 int* b = missingnums(&a, 6, &newsize);
@@ -1464,7 +1459,7 @@ void main2()
 	 }*/
  }
 
- //îòáãú áéú 8 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 6
  int mosttimes_arr(int* arr, int size)
  {
 	 int* counter_arr = (int*)calloc(size + 1, sizeof(int));
@@ -1493,12 +1488,12 @@ void main2()
 	 free(counter_arr);
 	 return result;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 1,1,3,2,2 };
 	 printf("%d", mosttimes_arr(&a, 5));*/
  }
 
- //îòáãú áéú 8 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 7
  int biggestshows(int* arr, int size)
  {
 	 int* counter_arr = (int*)calloc(size+1, sizeof(int));
@@ -1521,7 +1516,7 @@ void main2()
 	 return biggest_index;
  }
 
- //îòáãú áéú 8 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 8
  int missingone(int* A, int n)
  {
 	 int* counter_arr = (int*)calloc(n+1, sizeof(int));
@@ -1543,12 +1538,12 @@ void main2()
 	 }
 	 return -1;
 
-	 //ùîúé áîééï
+	 //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 7,4,5,6,1,4,0 };
 	 printf("%d", missingone(&a, 7));*/
  }
 
- //îòáãú áéú 8 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 9
  int* spinOneTime(int* arr,int size)
  {
 	 int* arr_help = (int*)calloc(size, sizeof(int));
@@ -1572,7 +1567,7 @@ void main2()
 	 }
 	 return arr;
 
-	 //ôúøåï äøáä éåúø éòéì
+	 //Ã´ÃºÃ¸Ã¥Ã¯ Ã¤Ã¸Ã¡Ã¤ Ã©Ã¥ÃºÃ¸ Ã©Ã²Ã©Ã¬
 	/* int i;
 	 int* temp = (int*)malloc(size * sizeof(int));
 	 for (i = 0; i < size; i++)
@@ -1582,7 +1577,7 @@ void main2()
 	 free(temp);*/
  }
 
-//îòáãú áéú 8 ùàìä 10
+//Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 8 Ã¹Ã Ã¬Ã¤ 10
  int* newarr_biggers(int* arr, int size)
  {
 	 int* newarr = (int*)calloc(size, sizeof(int));
@@ -1609,7 +1604,7 @@ void main2()
 	 }
 	 return newarr;
 
-	 //òåã ôúøåï
+	 //Ã²Ã¥Ã£ Ã´ÃºÃ¸Ã¥Ã¯
 	/* int i, j;
 	 int* newArr = (int*)malloc(size * sizeof(int));
 	 for (i = 0; i < size; i++)
@@ -1624,7 +1619,7 @@ void main2()
 	 }
 	 return newArr;*/
 
-    //ùîúé áîééï
+    //Ã¹Ã®ÃºÃ© Ã¡Ã®Ã©Ã©Ã¯
 	/* int a[] = { 6,3,9,10,11,5 };
 	 int* b = newarr_biggers(a, 6);
 	 for (size_t i = 0; i < 6; i++)
@@ -1633,7 +1628,7 @@ void main2()
 	 }*/
  }
 
- //îòáãú áéú 9 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 1
  int isitin(char* s1,char* s2)
  {
 	 int count[26] = { 0 };
@@ -1648,7 +1643,7 @@ void main2()
 	 return 1;
  }
 
- //îòáãú áéú 9 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 2
  int tmoraStr(char* s1, char* s2)
  {
 	 if (strlen(s1) != strlen(s2))
@@ -1669,7 +1664,7 @@ void main2()
 	 return 1;
  }
 
- //îòáãú áéú 9 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 3
  void mergeStr(char* str)
  {
 	  int i = 0,j=0;
@@ -1692,7 +1687,7 @@ void main2()
 
 
 
-	 //ãøê éåúø éòéìä
+	 //Ã£Ã¸Ãª Ã©Ã¥ÃºÃ¸ Ã©Ã²Ã©Ã¬Ã¤
 	/* int i, j;
 	 for (i = 1, j = 1; str[i]; i++)
      {
@@ -1708,7 +1703,7 @@ void main2()
  }
 
 
- //îòáãú áéú 9 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 4
  void numrizeit(char* str)
  {
 	 int i, j, count = 1;
@@ -1729,7 +1724,7 @@ void main2()
 	 str[j] = '\0';
  }
 
- //îòáãú áéú 9 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 5
  int tmoraPolindrom(char* str)
  {
 	 int counters[27] = { 0 };
@@ -1750,7 +1745,7 @@ void main2()
 	 return 1;
  }
  
- //îòáãú áéú 9 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 6
  char* howtobepalindrom(char* str,int* size)
  {
 
@@ -1780,7 +1775,7 @@ void main2()
 	 return chars_to_remove;
  }
 
- //îòáãú áéú 9 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 7
  int ifalike(char* str1, char* str2)
  {
 	 if (strlen(str1) != strlen(str2))
@@ -1795,7 +1790,7 @@ void main2()
 	 return 1;
  }
 
- //îòáãú áéú 9 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 8
  char* tiny_str(char* str, int index, int length)
  {
 	 char* newstr = (char*)malloc(length+1);
@@ -1810,7 +1805,7 @@ void main2()
 	 return newstr;
  }
 
- //îòáãú áéú 9 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 9
  typedef char* verylong;
  verylong add_verylong(verylong vl1, verylong vl2)
  {
@@ -1818,7 +1813,7 @@ void main2()
  }
 
 
- //îòáãú áéú 9 ùàìä 10
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 9 Ã¹Ã Ã¬Ã¤ 10
  void remove_chars(char* str, char* to_remove, int size)
  {
 	 int count[52] = { 0 };
@@ -1841,7 +1836,7 @@ void main2()
 	 str[j] = '\0';
  }
 
- //îòáãú áéú 10 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 1
  int missing_num(int* arr, int n)
  {
 	 int i,sum_arr=0,sumindexes=0;
@@ -1853,7 +1848,7 @@ void main2()
 	 return (sumindexes + n) - sum_arr;
  }
 
- //îòáãú áéú 10 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 2
 
  int missing_num_logn(int* arr, int n)
  {
@@ -1906,7 +1901,7 @@ void main2()
 	 return low;*/
  }
 
- //îòáãú áéú 10 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 3
  int zogot_memuyan(int* arr, int k, int key)
  {
 	 int low=0, mid, high=k-1;
@@ -1924,7 +1919,7 @@ void main2()
 
  }
 
- //îòáãú áéú 10 ùàìä 4
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 4
  int find_closest(int* arr, int n, int k)
  {
 	 if (k > arr[n - 1])
@@ -1943,7 +1938,7 @@ void main2()
 	 return arr[mid];
  }
 
- //îòáãú áéú 10 ùàìä 5
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 5
  int circle_memuyan(int* arr, int n)
  {
 	 int low = 0, mid, high=n-1;
@@ -1959,7 +1954,7 @@ void main2()
 	 return low;
  }
 
- //îòáãú áéú 10 ùàìä 6
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 6
  int mitapes(int* pos, int* neg, int n, int* pos_index, int* neg_index)
  {
 	 int i = 0, j = 0;
@@ -1981,14 +1976,14 @@ void main2()
 	 *pos_index = *neg_index = -1;
 	 return 0;
 
-	 //áîééï
+	 //Ã¡Ã®Ã©Ã©Ã¯
 	/* int arr[] = { 1,4,8,11 };
 	 int arr2[] = { -5,-6,-11,-7 };
 	 int posindex = -1, negindex = -1;
 	 printf("%d \n%d\n%d", mitapes(&arr, &arr2, 4, &posindex, &negindex), posindex, negindex);*/
  }
 
- //îòáãú áéú 10 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 7
  int countones(int* arr, int n)
  {
 	 if (arr[n - 1] == 1)
@@ -2015,7 +2010,7 @@ void main2()
 
 
 
- //îòáãú áéú 10 ùàìä 8
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 8
  int hefresh(int* arr, int n, int d)
  {
 	 int low = 0, mid, high = n - 2;
@@ -2033,7 +2028,7 @@ void main2()
  }
 
 
- //îòáãú áéú 10 ùàìä 9
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 9
  int missingaformb(int* a, int n, int* b)
  {
 	 int low = 0, mid, high = n - 1;
@@ -2050,8 +2045,8 @@ void main2()
 	 
  }
 
- //îòáãú áéú 10 ùàìä 10
- //ìà ñééîúé
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 10 Ã¹Ã Ã¬Ã¤ 10
+ //Ã¬Ã  Ã±Ã©Ã©Ã®ÃºÃ©
  int counttimesofx(int* arr, int n, int x)
  {
 	 int low = 0, mid, high = n - 1, count = 0;
@@ -2068,7 +2063,7 @@ void main2()
 	 return count;
  }
 
- //îòáãú áéú 11 ùàìä 1
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 11 Ã¹Ã Ã¬Ã¤ 1
  void sortPairsArray(int* arr, int k)
  {
 	 /*int i,a,b;
@@ -2085,7 +2080,7 @@ void main2()
 		 }
 	 }*/
  }
- //îòáãú áéú 11 ùàìä 2
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 11 Ã¹Ã Ã¬Ã¤ 2
  void onezerotwo(int* arr, int n)
  {
 	 int i,zero=0,one=0,two=0;
@@ -2116,7 +2111,7 @@ void main2()
 	 }
  }
 
- //îòáãú áéú 11 ùàìä 3
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 11 Ã¹Ã Ã¬Ã¤ 3
  void makeitorgenised(int* arr, int n)
  {
 	 int* count_arr = (int*)calloc(n + 1, sizeof(int));
@@ -2140,7 +2135,7 @@ void main2()
 			 j++;
 	 }
  }
-//îòáãú áéú 11 ùàìä 4
+//Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 11 Ã¹Ã Ã¬Ã¤ 4
  void rearrangeposneg(int* arr, int n)
  {
 	 int i = 0, j = n - 1;
@@ -2157,4 +2152,4 @@ void main2()
 	 }
  }
 
- //îòáãú áéú 11 ùàìä 7
+ //Ã®Ã²Ã¡Ã£Ãº Ã¡Ã©Ãº 11 Ã¹Ã Ã¬Ã¤ 7
